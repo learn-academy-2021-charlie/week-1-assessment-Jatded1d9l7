@@ -7,22 +7,42 @@
 // Pseudo coding is REQUIRED
 // If you get stuck, please leave comments to help us understand your thought process
 
+//
+
+//Pseudo coding- okay, I need to create a function. I know I have to use const because i dont want to
+//treat it like a variable that can change.
+//I need to use if statements to set the conditional paramenters
+//I need to use the return functions for my expected outcomes.
+
 // --------------------1) Create a function that takes in a number and determines if a temperature is below boiling point, at boiling point or above boiling point. Boiling point is 212 degrees Fahrenheit.
 // Use the test variables provided below. Expected output: "35 is below boiling point", "350 is above boiling point", "212 is at boiling point"
 
-var temp1 = 35
-var temp2 = 350
-var temp3 = 212
-
-
+// var temp1 = 35
+// var temp2 = 350
+// var temp3 = 212
+//
+// const boilingPoint = (temp1, temp2, temp3) => {
+//   if (temp1 > 212)}
+//   return `${temp1} is above boiling point`
+// } else if (temp1 === 212){
+//   return `${temp1} is at boiling point`
+// } else if (temp1 < 212){
+//   return `${temp1} is below boiling point`
+// }
+// }
+//
+// console.log boilingPoint()
+//
 
 // --------------------2) Create a function that takes in two arrays of numbers and returns a single array with all the values sorted least to greatest.
 // Use the test variables provided below. Expected output: [-9, -7, 0, 3, 7, 8, 9, 13, 22, 36]
 
-var myNumbers1 = [3, 7, 0, 36, -9]
-var myNumbers2 = [8, -7, 22, 9, 13]
-
-
+// var myNumbers1 = [3, 7, 0, 36, -9]
+// var myNumbers2 = [8, -7, 22, 9, 13]
+//
+// var singleSortedArray = (myNumbers1 + myNumbers2)
+//
+// console.log(singleSortedArray)
 
 // --------------------3) Create a function that takes in a string of a single word and returns the string with all letters reversed.
 // Use the test variables provided below. Expected output: "ovarb", "eilrahc"

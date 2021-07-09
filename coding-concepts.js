@@ -64,8 +64,8 @@
 
 // --------------------5) What will this log?
 
-var dataTypes = ["number", "string", "Boolean"]
-console.log(typeof dataTypes.length)
+// var dataTypes = ["number", "string", "Boolean"]
+// console.log(typeof dataTypes.length)
 
 // a) Your answer: number because the typeof function is describing the length of the datatype array
 // using zero indexing makes "number"= 0, "sting"= 1, and "Boolean"=2
