@@ -157,7 +157,7 @@ var temp3 = 212
 //- return join the array back into a string
 
 // This is the answer (why is this not working?)
-
+//long buildout
 const reverseString - (string) => {
   let newArray = sting.split()
   console.log(newArray)
@@ -166,6 +166,11 @@ const reverseString - (string) => {
   let joinedArray = reversedArray.join("")
   console.log(joinedArray)
 }
+
+const reverseString = (string) => {
+  return string.split("").reverse().join("")
+}
+
 
 // console.log(reverseString(myString1))
 // console.log(reverseString(myString2))
@@ -196,6 +201,23 @@ const reverseString - (string) => {
 // Return numberExample2 - numberExample1
 
 
+// Review Answers
+//- create a functions
+//- function will take in 2 parameters = numb 1, numb 2
+// make conditionals to check for the larger number, then subtract the smaller
+// create a variable for the results
+// return the results variable
+
+const subtractor = (numb1, numb2) => {
+  let result 1 = numb1 - num2
+  let result2
+  if (numb1 > numb1)
+  return result1 = numb1 - numb2
+} else {
+  return result2
+}
+
+
 // var numberExample1 = 42
 // var numberExample2 = 27
 // var numberExample3 = 7
@@ -214,6 +236,26 @@ const reverseString - (string) => {
 // --------------------5) Copy/paste your code from #4. Refactor your code to also accept non-number edge cases. Inform your user if the variable passed into the subtraction function is not a number.
 // Use the two sets of test variables provided below. Expected output: "Your input is not a number", 3
 // Hint: There is an operator in JavaScript called typeof :)
+
+// Review: Answer-
+//-
+//-
+//-
+//-
+
+//Amanda's syntax for this problem (possible option)
+
+// if (num1 >= num2){
+//             return num1-num2
+//             }else if (num2 > num1){
+//                 return num2-num1
+//             }else if(typeof num1, num2 !== 'number'){
+//                 return "Your input is not a number"
+//             }
+//     }
+
+// console.log(subtractFunction(numberExampleRefactor1, numberExampleRefactor3))
+
 
 // var numberExampleRefactor1 = 42
 // var numberExampleRefactor2 = "hello"
