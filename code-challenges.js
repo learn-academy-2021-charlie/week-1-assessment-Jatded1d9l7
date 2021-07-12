@@ -1,5 +1,14 @@
 // ASSESSMENT 1: Coding practical questions
 
+//Another example (taken from the chat box)
+// const boilingPoint = (temp) => {
+//    return (temp == 212)
+//      ? '212 is at boiling point'
+//      : (temp > 212)
+//      ? `${temp} is above boiling point`
+//      : `${temp} is below boiling point`
+//  // }
+
 // To run file: navigate to the correct directory in terminal, $ node code-challenges.js
 
 // Please read all questions thoroughly
@@ -36,7 +45,44 @@ var temp2 = 350
 var temp3 = 212
 
 
+// Review: Answer
+//psudo code "Heather"
+//-- create a function
+//-- function needs to take an argument of tempurature
+//-- Needs to take an argument using basline relational  equality operators
+//-- based on that comparison make a statement
+//-- include the temperature given and if it was at, above, or below boiling point
+//-- Function called boilingPoint
+//-- Parameters name was temp
 
+// Review: Answer-
+// //**
+// /// this is the correct example
+// const boilingPoint = (temp){
+//   if (temp === 212){
+//     return "212 is at boiling point"
+//   } else if(temp > 212){
+//     `${temp} is above boiling point`
+//   } else if (temp < 212){
+//     return `${212} is below boiling point`
+//   }
+// }
+//
+// console.log(boilingPoint(temp1))
+// console.log(boilingPoint(temp2))
+// console.log(boilingPoint(temp3))
+
+
+// //another example (does not work rn but could be adjusted)
+// const boilingPoint = (temp) => {
+//    temp === 212 && "212 is at boiling point"
+//    temp > && return  `${temp} is above boiling point`
+//    temp < 212 && RETURN `${212} is below boiling point`
+// }
+
+//- check out additional topics in the syllabus to use the ternary operator
+//-ternary operator allows you to shorten your code
+//-
 
 // var temp = ()
 //
@@ -58,6 +104,28 @@ var temp3 = 212
 // --------------------2) Create a function that takes in two arrays of numbers and returns a single array with all the values sorted least to greatest.
 // Use the test variables provided below. Expected output: [-9, -7, 0, 3, 7, 8, 9, 13, 22, 36]
 
+//Psudo code:question 2 (yan)
+//- using a modulator
+//- using concate to combine one array
+//- concate is a modifier.
+//- declared a new variable to store the .concat combined arrays
+//-.sort() to get the numbers from the least to the greatest
+//- the function was called sortedArray
+//-parameter - numb1, numb2
+//- return the array with .sort()
+
+// var myNumbers1 = [3, 7, 0, 36, -9]
+// var myNumbers2 = [ , 8, -7, 22, 9, 13]
+//
+// // Answer (Yan) (this is suppose to work wtf):
+// const
+// sortedArray = (numb1, numb2) => {
+//   let newNumbers = numb1.concat(numb2)
+//   return newNumbers.sort(a, b => a - b)
+// }
+// console.log(sortedArray(myNumbers1, myNumbers2))
+
+
 // for this question I must create a function that returns a single array.
 // I must use the ".sort()" function to list the numbers from least to greatest
 // the first thing I need to do is to create the function
@@ -77,6 +145,32 @@ var temp3 = 212
 
 // --------------------3) Create a function that takes in a string of a single word and returns the string with all letters reversed.
 // Use the test variables provided below. Expected output: "ovarb", "eilrahc"
+
+
+//- Review notes
+
+//- Psudo code: (kelen)
+//-create a function = reverseString
+//- Parameter = string
+// convert the string into an array, split()
+//- reverse the array
+//- return join the array back into a string
+
+// This is the answer (why is this not working?)
+
+const reverseString - (string) => {
+  let newArray = sting.split()
+  console.log(newArray)
+  let reversedArray = newArray.reverse()
+  console.log(reversedArray)
+  let joinedArray = reversedArray.join("")
+  console.log(joinedArray)
+}
+
+// console.log(reverseString(myString1))
+// console.log(reverseString(myString2))
+
+
 
 //  create a constant variable
 // make the function
