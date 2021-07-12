@@ -28,60 +28,84 @@
 // for this problem:
 //-I need to create a variable that takes in a number to determine if a temperature is above, at, or below boiling point.
 
-var temp1 = 35
-var temp2 = 350
-var temp3 = 212
+// var temp1 = 35
+// var temp2 = 350
+// var temp3 = 212
 
-  // if temp1 is above 212
-  if(temp1 > 212) {
-    return "is above boiling point"
-  }
-//   // if boilingPoint is equal to 212 return "is at boiling point"
-  else if(temp1 === 212) {
-    return "is at boiling point"
-  }
-   else if(temp1 < 212) {
-    return "is below boiling point"
-  }
-}
-console.log(boilingPoint)
+// var temp = ()
+//
+//   // if temp1 is above 212
+//   if(temp > 212) {
+//     return "is above boiling point"
+//   }
+// //   // if boilingPoint is equal to 212 return "is at boiling point"
+//   else if(temp === 212) {
+//     return "is at boiling point"
+//   }
+//    else if(temp < 212) {
+//     return "is below boiling point"
+//   }
+// }
+// console.log(boilingPoint(200))
 
 
 // --------------------2) Create a function that takes in two arrays of numbers and returns a single array with all the values sorted least to greatest.
 // Use the test variables provided below. Expected output: [-9, -7, 0, 3, 7, 8, 9, 13, 22, 36]
 
+// for this question I must create a function that returns a single array.
+// I must use the ".sort()" function to list the numbers from least to greatest
+// the first thing I need to do is to create the function
+// make my declaration
+// function name
+// equals sign
+// concatenate the two variables
+// return a value that orders the two arrays from least to greatest
+
 // var myNumbers1 = [3, 7, 0, 36, -9]
 // var myNumbers2 = [ , 8, -7, 22, 9, 13]
 //
-// var singleSortedArray = (myNumbers1 + myNumbers2)
-//
+// var singleSortedArray = (myNumbers1 + myNumbers2) => {
+//   return singleSortedArray.sort()
+// }
 // console.log(singleSortedArray)
 
 // --------------------3) Create a function that takes in a string of a single word and returns the string with all letters reversed.
 // Use the test variables provided below. Expected output: "ovarb", "eilrahc"
 
+//  create a constant variable
+// make the function
+// add the equals sign
+// use the reversed function to render the two strings reversed order ".reversed"
+
 // var myString1 = "bravo"
 // var myString2 = " charlie"
 //
-// const singleWord = (myString1 + myString2)
+// const singleWord = (myString1 + myString2) => {
+//   return singleWord.reversed
+// }
 //
 // console.log(singleWord)
 
 // --------------------4) Create a function that takes in two numbers and subtracts the smaller number from the larger number.
 // Use the two sets of test variables provided below. Expected output: 15, 12
 
+// for this problem I have to take the two numbers and subtract the smaller from the larger
+//if numberExample1 > numberExample2
+// Return numberExample1 - numberExample2
+// if numberExample1 < numberExampleRefactor
+// Return numberExample2 - numberExample1
+
+
 // var numberExample1 = 42
 // var numberExample2 = 27
-//
 // var numberExample3 = 7
 // var numberExample4 = 19
-//
-// const subTwo = (numberExample1, numberExample2) => {
-//   if numberExample1 > numberExample2
-//   return numberExample1 - numberExample2
+
+// const subTwo = (numb1, numb2) => {
+//   if numb1 > numb2
+//   return numb1 - numb2
 // }
-// }
-// console.log(subTwo)
+// console.log(subTwo(1, 2))
 
 
 // const subTwo = (numberExample1 + numberExample2 + numberExample3 + numberExample4)
