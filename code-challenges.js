@@ -28,9 +28,15 @@
 // for this problem:
 //-I need to create a variable that takes in a number to determine if a temperature is above, at, or below boiling point.
 
-// var temp1 = 35
-// var temp2 = 350
-// var temp3 = 212
+///
+
+
+var temp1 = 35
+var temp2 = 350
+var temp3 = 212
+
+
+
 
 // var temp = ()
 //
