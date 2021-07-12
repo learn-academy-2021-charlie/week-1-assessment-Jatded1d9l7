@@ -28,28 +28,24 @@
 // for this problem:
 //-I need to create a variable that takes in a number to determine if a temperature is above, at, or below boiling point.
 
-var temp = (213)
+var temp1 = 35
+var temp2 = 350
+var temp3 = 212
 
-const boilingPoint = (temp) => {
-  if (temp > 212)
-}
+  // if temp1 is above 212
+  if(temp1 > 212) {
+    return "is above boiling point"
+  }
+//   // if boilingPoint is equal to 212 return "is at boiling point"
+  else if(temp1 === 212) {
+    return "is at boiling point"
+  }
+   else if(temp1 < 212) {
+    return "is below boiling point"
+  }
 }
 console.log(boilingPoint)
 
-//
-// var temp1 = 35
-// var temp2 = 350
-// var temp3 = 212
-//
-// const boilingPoint = (boil) => {
-//   if (boil > 212) {
-//   }
-//   return `${boil} is above boiling point `
-// } else if (boil < 212) {
-//   return `${boil} is below boiling point `
-//   }
-//
-// console.log(boilingPoint(213))
 
 // --------------------2) Create a function that takes in two arrays of numbers and returns a single array with all the values sorted least to greatest.
 // Use the test variables provided below. Expected output: [-9, -7, 0, 3, 7, 8, 9, 13, 22, 36]
