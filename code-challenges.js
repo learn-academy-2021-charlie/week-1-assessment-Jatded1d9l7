@@ -17,37 +17,39 @@
 // --------------------1) Create a function that takes in a number and determines if a temperature is below boiling point, at boiling point or above boiling point. Boiling point is 212 degrees Fahrenheit.
 // Use the test variables provided below. Expected output: "35 is below boiling point", "350 is above boiling point", "212 is at boiling point"
 
-//EXAMPLE//
-// // create a function called tallEnough that takes in a number called height
-// const tallEnough = (height) => {
-//   if(height < 40) {
-//   }
-//   else if(height >= 40) {
-//     return "Buckle up, let's ride"
-//   }
-//   // any other input return error
-//   else {
-//     return "error"
-//   }
-// }
-// EXAMPLE
+//1. Start out with a declaration, us "const" because this will not be reassigned.
+//2. Begin with camelCased variable name. I will use boilingPoint as my variable name.
+//3. My variable must have an equal sign after it.
+//4. Now my I must have parentheses to describe an action and to pass inputs.
+//5. I need a function syntax "=>".
+//6. I need curly brackets to encapsolate my code "{}".
+//7. Finally, I need a return function.
 
+// for this problem:
+//-I need to create a variable that takes in a number to determine if a temperature is above, at, or below boiling point.
 
+var temp = (213)
+
+const boilingPoint = (temp) => {
+  if (temp > 212)
+}
+}
+console.log(boilingPoint)
 
 //
 // var temp1 = 35
 // var temp2 = 350
 // var temp3 = 212
 //
-const boilingPoint = (boil) => {
-  if (boil > 212) {
-  }
-  return `${boil} is above boiling point `
-} else if (boil < 212) {
-  return `${boil} is below boiling point `
-  }
-
-console.log(boilingPoint(213))
+// const boilingPoint = (boil) => {
+//   if (boil > 212) {
+//   }
+//   return `${boil} is above boiling point `
+// } else if (boil < 212) {
+//   return `${boil} is below boiling point `
+//   }
+//
+// console.log(boilingPoint(213))
 
 // --------------------2) Create a function that takes in two arrays of numbers and returns a single array with all the values sorted least to greatest.
 // Use the test variables provided below. Expected output: [-9, -7, 0, 3, 7, 8, 9, 13, 22, 36]
