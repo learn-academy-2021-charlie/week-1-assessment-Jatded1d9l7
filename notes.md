@@ -175,3 +175,68 @@ const reverseString = (string) => {
 // }
 //
 // console.log(singleWord)
+
+
+QUESTION 4:
+
+// for this problem I have to take the two numbers and subtract the smaller from the larger
+//if numberExample1 > numberExample2
+// Return numberExample1 - numberExample2
+// if numberExample1 < numberExampleRefactor
+// Return numberExample2 - numberExample1
+
+
+// Review Answers
+//- create a functions
+//- function will take in 2 parameters = numb 1, numb 2
+// make conditionals to check for the larger number, then subtract the smaller
+// create a variable for the results
+// return the results variable
+
+// const subtractor = (numb1, numb2) => {
+//   let result 1 = numb1 - num2
+//   let result2
+//   if (numb1 > numb1)
+//   return result1 = numb1 - numb2
+// } else {
+//   return result2
+// }
+
+
+// var numberExample1 = 42
+// var numberExample2 = 27
+// var numberExample3 = 7
+// var numberExample4 = 19
+
+// const subTwo = (numb1, numb2) => {
+//   if numb1 > numb2
+//   return numb1 - numb2
+// }
+// console.log(subTwo(1, 2))
+
+
+// const subTwo = (numberExample1 + numberExample2 + numberExample3 + numberExample4)
+
+
+QUESTION 5:
+
+
+//Amanda's syntax for this problem (possible option)
+
+// if (num1 >= num2){
+//             return num1-num2
+//             }else if (num2 > num1){
+//                 return num2-num1
+//             }else if(typeof num1, num2 !== 'number'){
+//                 return "Your input is not a number"
+//             }
+//     }
+
+// console.log(subtractFunction(numberExampleRefactor1, numberExampleRefactor3))
+
+
+// var numberExampleRefactor1 = 42
+// var numberExampleRefactor2 = "hello"
+//
+// var numberExampleRefactor3 = 27
+// var numberExampleRefactor4 = 24
