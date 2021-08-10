@@ -149,6 +149,9 @@
 // Use the two sets of test variables provided below. Expected output: "Your input is not a number", 3
 // Hint: There is an operator in JavaScript called typeof :)
 
+//-------------------- CODE BLOCK START ----------------------// Week-1-assessment-Jatded1d9l7 -Code Challenges- -Question 5-
+
+
 if (num1 >= num2){
     return num1-num2
     else if 
@@ -160,3 +163,5 @@ if (num1 >= num2){
     }
 
 console.log(subtractFunction(numberExampleRefactor1, numberExampleRefactor3))
+
+//-------------------- CODE BLOCK END ----------------------// Week-1-assessment-Jatded1d9l7 -Code Challenges- -Question 5-
