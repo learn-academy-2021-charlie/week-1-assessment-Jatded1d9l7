@@ -12,21 +12,21 @@
 
 //-------------------- CODE BLOCK START ----------------------// Week-1-assessment-Jatded1d9l7 -Code Challenges- -Question 1-
 
-// var temp1 = 35
-// var temp2 = 350
-// var temp3 = 212
+var temp1 = 35
+var temp2 = 350
+var temp3 = 212
 
-// const boilingPoint = (temp) {
-//   if (temp === 212){
-//     return "212 is at boiling point"
-//   } else if(temp > 212){
-//     `${temp} is above boiling point`
-//   } else if (temp < 212){
-//     return `${212} is below boiling point`
-//   }
-// }
+const boilingPoint = (temp) {
+  if (temp === 212){
+    return "212 is at boiling point"
+  } else if(temp > 212){
+    `${temp} is above boiling point`
+  } else if (temp < 212){
+    return `${212} is below boiling point`
+  }
+}
 
-// console.log boilingPoint(temp1)
+console.log boilingPoint(temp1)
 
 //-------------------- CODE BLOCK END ----------------------// Week-1-assessment-Jatded1d9l7 -Code Challenges- -Question 1-
 
@@ -57,16 +57,16 @@
 
 //-------------------- CODE BLOCK START ----------------------// Week-1-assessment-Jatded1d9l7 -Code Challenges- -Question 2-
 
-// var myNumbers1 = [3, 7, 0, 36, -9]
-// var myNumbers2 = [ , 8, -7, 22, 9, 13]
-// Expected output: [-9, -7, 0, 3, 7, 8, 9, 13, 22, 36]
+var myNumbers1 = [3, 7, 0, 36, -9]
+var myNumbers2 = [ , 8, -7, 22, 9, 13]
+Expected output: [-9, -7, 0, 3, 7, 8, 9, 13, 22, 36]
 
 
-// singleSort = (num1, num2) => {
-//   let newNumbers = num1.concat(num2)
-//   return newNumbers.sort(a, b => a - b)
-// }
-// console.log(singleSort(myNumbers1, myNumbers2))
+singleSort = (num1, num2) => {
+  let newNumbers = num1.concat(num2)
+  return newNumbers.sort(a, b => a - b)
+}
+console.log(singleSort(myNumbers1, myNumbers2))
 
 //-------------------- CODE BLOCK END ----------------------// Week-1-assessment-Jatded1d9l7 -Code Challenges- -Question 2-
 
@@ -90,17 +90,17 @@
 
 //-------------------- CODE BLOCK START ----------------------// Week-1-assessment-Jatded1d9l7 -Code Challenges- -Question 3-
 
-// var myString1 = "bravo"
-// var myString2 = " charlie"
-// // Expected output: "ovarb", "eilrahc"
+var myString1 = "bravo"
+var myString2 = " charlie"
+// Expected output: "ovarb", "eilrahc"
 
 
-// const reverseString = (string) => {
-//   return string.split("").reverse().join("")
-// }
+const reverseString = (string) => {
+  return string.split("").reverse().join("")
+}
 
-// console.log(reverseString(myString1))
-// console.log(reverseString(myString2))
+console.log(reverseString(myString1))
+console.log(reverseString(myString2))
 
 //-------------------- CODE BLOCK END ----------------------// Week-1-assessment-Jatded1d9l7 -Code Challenges- -Question 3-
 
@@ -118,20 +118,20 @@
 
 //-------------------- CODE BLOCK START ----------------------// Week-1-assessment-Jatded1d9l7 -Code Challenges- -Question 4-
 
-// var numberExample1 = 42
-// var numberExample2 = 27
-// var numberExample3 = 7
-// var numberExample4 = 19
+var numberExample1 = 42
+var numberExample2 = 27
+var numberExample3 = 7
+var numberExample4 = 19
 
-// const subtractor = (num1, num2) => {
-//   let result1 = num1 - num2
-//   let result2
-//   if (num1 > num1)
-//   return result1 = num1 - num2
-// } else {
-//   return result2
-// }
-// console.log(subtractor(2,6))
+const subtractor = (num1, num2) => {
+  let result1 = num1 - num2
+  let result2
+  if (num1 > num1)
+  return result1 = num1 - num2
+} else {
+  return result2
+}
+console.log(subtractor(2,6))
 
 //-------------------- CODE BLOCK END ----------------------// Week-1-assessment-Jatded1d9l7 -Code Challenges- -Question 4-
 
