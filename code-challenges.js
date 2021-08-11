@@ -52,8 +52,8 @@ console.log boilingPoint(temp1)
 
 // Function that takes in two arrays of numbers 
 // ^singleSort = ([],[]) => {}
-// Concatination for two arrays 
-// .sort for least to greatest
+// .concate() method to merge two or more arrays
+// .sort() method that sorts an array alphabetically
 
 //-------------------- CODE BLOCK START ----------------------// Week-1-assessment-Jatded1d9l7 -Code Challenges- -Question 2-
 
@@ -87,6 +87,12 @@ console.log(singleSort(myNumbers1, myNumbers2))
 // --------------------3) Create a function that takes in a string of a single word and returns the string with all letters reversed.
 // Use the test variables provided below. 
 
+//pseudo code
+// function that takes in a string of a single word
+// Returns the string with all letters reveresed
+// .split() splits a string into an array of substrings
+// .reverse reverses the order of the elements in the array
+// .join() method returns a string by concatenating an array
 
 //-------------------- CODE BLOCK START ----------------------// Week-1-assessment-Jatded1d9l7 -Code Challenges- -Question 3-
 
