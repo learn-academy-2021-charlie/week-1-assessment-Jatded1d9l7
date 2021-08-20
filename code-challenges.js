@@ -159,17 +159,17 @@ console.log(subtractor(2,6))
 //-------------------- CODE BLOCK START ----------------------// Week-1-assessment-Jatded1d9l7 -Code Challenges- -Question 5-
 
 
-// if (num1 >= num2){
-//     return num1-num2 {
-//       else if 
-//     }
-//     (num2 > num1){
-//     return num2-num1
-//     }else if(typeof num1, num2 !== 'number'){
-//     return "Your input is not a number"
-//             }
-//     }
+if (num1 >= num2){
+    return num1-num2 {
+      else if 
+    }
+    (num2 > num1){
+    return num2-num1
+    }else if(typeof num1, num2 !== 'number'){
+    return "Your input is not a number"
+            }
+    }
 
-// console.log(subtractFunction(numberExampleRefactor1, numberExampleRefactor3))
+console.log(subtractFunction(numberExampleRefactor1, numberExampleRefactor3))
 
 //-------------------- CODE BLOCK END ----------------------// Week-1-assessment-Jatded1d9l7 -Code Challenges- -Question 5-
