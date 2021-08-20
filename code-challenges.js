@@ -16,7 +16,7 @@ var temp1 = 35
 var temp2 = 350
 var temp3 = 212
 
-const boilingPoint = (temp) {
+const boilingPoint = (temp) { 
   if (temp === 212){
     return "212 is at boiling point"
   } else if(temp > 212){
@@ -59,7 +59,7 @@ console.log boilingPoint(temp1)
 
 var myNumbers1 = [3, 7, 0, 36, -9]
 var myNumbers2 = [ , 8, -7, 22, 9, 13]
-Expected output: [-9, -7, 0, 3, 7, 8, 9, 13, 22, 36]
+// Expected output: [-9, -7, 0, 3, 7, 8, 9, 13, 22, 36]
 
 
 singleSort = (num1, num2) => {
@@ -136,6 +136,7 @@ const subtractor = (num1, num2) => {
   return result1 = num1 - num2
 } else {
   return result2
+  }
 }
 console.log(subtractor(2,6))
 
@@ -158,16 +159,17 @@ console.log(subtractor(2,6))
 //-------------------- CODE BLOCK START ----------------------// Week-1-assessment-Jatded1d9l7 -Code Challenges- -Question 5-
 
 
-if (num1 >= num2){
-    return num1-num2
-    else if 
-    (num2 > num1){
-    return num2-num1
-    }else if(typeof num1, num2 !== 'number'){
-    return "Your input is not a number"
-            }
-    }
+// if (num1 >= num2){
+//     return num1-num2 {
+//       else if 
+//     }
+//     (num2 > num1){
+//     return num2-num1
+//     }else if(typeof num1, num2 !== 'number'){
+//     return "Your input is not a number"
+//             }
+//     }
 
-console.log(subtractFunction(numberExampleRefactor1, numberExampleRefactor3))
+// console.log(subtractFunction(numberExampleRefactor1, numberExampleRefactor3))
 
 //-------------------- CODE BLOCK END ----------------------// Week-1-assessment-Jatded1d9l7 -Code Challenges- -Question 5-
